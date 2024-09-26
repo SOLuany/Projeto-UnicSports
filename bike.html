@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnicSports</title>
+
+    <style>
+        body, li{
+            background-color: #ffffff;
+            color: rgb(58, 8, 105);
+            font-style:inherit;
+            font-size: 30; 
+        }           
+        ul{
+            padding: 0;
+            text-align: center;
+        }
+        li{
+            display: inline;
+            margin-right: 10px;
+            color:blue;            
+        }
+        #borda{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        height: -30vh;
+        margin-top: 30px;
+        }
+        #direita{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: 50%;
+            border-radius: 10px;
+            overflow-y: visible;
+            margin-left: -150px;
+            border: 2px solid rgb(58, 8, 105);
+            margin-right: 400px;
+        }
+        #esquerda{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-left: 150px;
+        }
+        #direita button{
+            background-color: rgb(58, 8, 105);
+            color:#ffffff;
+        }
+        img{
+           max-width: 500px;
+           width: 100%; 
+        }
+    </style>
+</head>
+<body>   
+    <ul>
+        <button><li><a href="index.html">Página Inicial</a></li></button>
+        <button><li><a href="login.html">Login</a></li></button>
+        <button><li><a href="produtos.html">Produtos</a></li></button>
+        <button><li><a href="lista.html">Lista</a></li></button>
+        <button><li><a href="sobre.html">Sobre</a></li></button>
+    </ul>
+    <div id="borda">
+        <div id="esquerda">
+            <img src="img/bike1.jpg" alt="Bicibleta Aro 29 Ksw 24 Vel" >
+        </div>
+        <div id="direita">
+            <h1>Bicibleta Aro 29 Ksw 24 Vel</h1>
+            <p><br>Descrição: Bicicleta Aro 29 Ksw 24 Vel.</p>
+            <span>R$1.129,00</span>
+            <button>COMPRAR</button>
+        </div>
+    </div>
+</body>
+</html>
+

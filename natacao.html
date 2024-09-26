@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            
+        }
+    h1{
+        color:rgb(58, 8, 105);
+        font-style:inherit;
+    }
+    #pagina{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        height: -30vh;
+        margin-top: 30px;
+    }
+    #display{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+    }
+    #produtos{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        text-align:center;          
+        padding: 20px;  
+        color:rgb(58, 8, 105);
+        font-style:inherit;
+        font-size: 25px;
+        border: 1px solid rgb(58, 8, 105);
+        line-height: 2;
+    }
+    #produtos h4{
+        text-align:center;            
+        color:rgb(58, 8, 105);
+        font-style:inherit;
+        font-size: 25px;
+        border: 1px solid rgb(58, 8, 105);
+        line-height: 2;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    p{
+        font-size:15px;
+    }
+    ul{
+        padding: 0;
+        text-align: center;
+    }
+    li{
+        display: inline;
+        margin-right: 10px;
+        color:blue;            
+    }
+    </style>
+</head>
+<body>
+    <ul>
+        <button><a href="index.html">Página Inicial</a></button>
+        <button><li><a href="login.html">Login</a></li></button>
+        <button><li><a href="produtos.html">Produtos</a></li></button>
+        <button><li><a href="lista.html">Lista</a></li></button>
+        <button><li><a href="sobre.html">Sobre</a></li></button>
+    </ul>
+    <br></br>
+    <center><h1>Nossos produtos</h1></center>
+    <br></br>
+    <div id="pagina">
+    <div id="display">
+    <div id="produtos">
+    <a href="oculos.html"><img src="img/oculosnatacao.jpg" alt="Óculos de natação preto" width="250" height="250"></a>
+    <p>Descrição: Óculos de natação preto profissional.</p>
+    <h4>R$150,00</h4>
+    </div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
